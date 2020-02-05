@@ -1,19 +1,10 @@
 @model HolidayCountdownMVC.Models.Gift
 
 @{
-    Layout = null;
+    ViewData["Title"] = "Create";
 }
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Create</title>
-</head>
-<body>
-
-<h4>Gift</h4>
+<h4>Create Gift</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -41,9 +32,7 @@
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
 
-</body>
-</html>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
