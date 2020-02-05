@@ -4,6 +4,7 @@
 ![GitHub issues](https://img.shields.io/github/issues/carltonstith/HolidayCountdownMVC)
 ![GitHub stars](https://img.shields.io/github/stars/carltonstith/HolidayCountdownMVC)
 ![GitHub forks](https://img.shields.io/github/forks/carltonstith/HolidayCountdownMVC)
+![GitHub Follow](https://img.shields.io/github/followers/carltonstith?style=social)
 ![Twitter Follow](https://img.shields.io/twitter/follow/carltonstith?style=social)
 
 Holiday Countdown MVC is a gift list keeping application that allows a user to do create, update, store, and delete gifts to buy that special someone.
