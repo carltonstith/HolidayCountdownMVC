@@ -16,7 +16,7 @@
                 @Html.DisplayNameFor(model => model.Recipient)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Cost)
+                @Html.DisplayNameFor(model => model.Price)
             </th>
             <th>
                 <a asp-action="Create" class="btn btn-outline-success"><i class="fa fa-plus-square"></i>Create New Gift</a>
@@ -33,7 +33,7 @@
                 @Html.DisplayFor(modelItem => item.Recipient)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Cost)
+                @Html.DisplayFor(modelItem => item.Price)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.GiftId">Edit</a> |

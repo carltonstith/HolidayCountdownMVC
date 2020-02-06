@@ -53,7 +53,7 @@ namespace HolidayCountdownMVC.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("GiftId,Item,Recipient,Cost")] Gift gift)
+        public async Task<IActionResult> Create([Bind("GiftId,Item,Recipient,Price")] Gift gift)
         {
             if (ModelState.IsValid)
             {
@@ -85,7 +85,7 @@ namespace HolidayCountdownMVC.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("GiftId,Item,Recipient,Cost")] Gift gift)
+        public async Task<IActionResult> Edit(int id, [Bind("GiftId,Item,Recipient,Price")] Gift gift)
         {
             if (id != gift.GiftId)
             {

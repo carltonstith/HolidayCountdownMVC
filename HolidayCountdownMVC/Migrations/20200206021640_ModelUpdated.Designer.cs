@@ -3,14 +3,16 @@ using HolidayCountdownMVC.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace HolidayCountdownMVC.Migrations
 {
     [DbContext(typeof(GiftContext))]
-    partial class GiftContextModelSnapshot : ModelSnapshot
+    [Migration("20200206021640_ModelUpdated")]
+    partial class ModelUpdated
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
