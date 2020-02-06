@@ -29,9 +29,8 @@ namespace HolidayCountdownMVC.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(250)");
 
-                    b.Property<string>("Price")
-                        .IsRequired()
-                        .HasColumnType("varchar(100)");
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18, 2)");
 
                     b.Property<string>("Recipient")
                         .IsRequired()

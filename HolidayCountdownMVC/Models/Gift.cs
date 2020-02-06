@@ -17,7 +17,7 @@ namespace HolidayCountdownMVC.Models
         [Required]
         public string Recipient { get; set; }
 
-        [Column(TypeName = "varchar(100)")]
+        [Column(TypeName = "decimal(18, 2)")]
         [Required]
         public decimal Price { get; set; }
     }

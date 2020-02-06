@@ -14,7 +14,7 @@ namespace HolidayCountdownMVC.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Item = table.Column<string>(type: "nvarchar(250)", nullable: false),
                     Recipient = table.Column<string>(type: "nvarchar(250)", nullable: false),
-                    Cost = table.Column<string>(type: "varchar(100)", nullable: false)
+                    Price = table.Column<decimal>(type: "decimal(18, 2)", nullable: false)
                 },
                 constraints: table =>
                 {
